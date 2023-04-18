@@ -1,0 +1,130 @@
+body {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-item a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+.menu-item img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    filter: invert(100%);
+}
+
+.room-list img{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.menu-item img:hover{
+    filter: invert(92%) sepia(81%) saturate(7495%) hue-rotate(357deg) brightness(106%) contrast(107%);
+}
+
+.room-list a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+ul {
+    list-style: none;
+}
+
+#app-menu li{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.room-list li{
+    color:black;
+    background-color:bisque;
+    padding: 10px;
+    border: gray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#app-menu li:hover{
+    background-color: aqua;
+    color: yellow;
+}
+
+#app-menu li a:hover {
+    color: yellow;
+}
+
+.room-list li:hover{
+    background-color: lightyellow;
+}
+
+.room-list li a:hover{
+    color:darkred;
+}
+
+div .message-list {
+    overflow: auto;
+    max-height: 300px;
+}
+
+div .message{
+    text-align: left;
+    background-color: #ffcccb;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+div .my-message{
+    text-align: right;
+    background-color: #b2d3c2;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.message-user {
+    font-weight: bold;
+    color: darkslategray;
+    margin-right: 5px;
+}
+
+div .form-field{
+    background-color: lightgray;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+}
+
+div .page-control {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    #app-view {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #app-view {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #app-view {
+        width: 100%;
+    }
+}
